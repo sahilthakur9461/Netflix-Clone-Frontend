@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from './components/Header'
+import HeroSection from './components/HeroSection'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='relative'>
+      <Header/>
+      <HeroSection/>
+    </div>
   )
 }
 
